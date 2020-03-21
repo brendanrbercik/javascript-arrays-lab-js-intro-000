@@ -6,8 +6,8 @@ function removeLastKitten() {
 }
 
 function removeFirstKitten() {
-  var kittens = kittens.slice(1);
-  return kittens;
+  var kittens3 = kittens.slice(1);
+  return kittens3;
 }
 
 
