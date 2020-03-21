@@ -1,13 +1,13 @@
 var kittens = ["Milo", "Otis", "Garfield"]
 
 function removeLastKitten() {
-  kittens = kittens.slice(0,0);
-  return kittens;
+  var kittens2 = kittens.slice(0,0);
+  return kittens2;
 }
 
 function removeFirstKitten() {
-  kittens = kittens.slice(1);
-  return kittens;
+  var kittens3 = kittens.slice(1);
+  return kittens3;
 }
 
 
