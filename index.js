@@ -16,6 +16,12 @@ function appendKitten(name) {
   return kittens;
 }
 
+function prependKitten(name) {
+  var kittens = ["Milo", "Otis", "Garfield"];
+  kittens = [name, ...kittens];
+  return kittens;
+}
+
 function destructivelyAppendKitten(name) {
   kittens.push(name);
 }
