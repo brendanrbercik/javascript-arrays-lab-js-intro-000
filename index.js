@@ -10,7 +10,9 @@ function removeFirstKitten() {
   return kittens3;
 }
 
-
+function appendKitten(name) {
+  kittens = [...kittens, name];
+}
 
 function destructivelyAppendKitten(name) {
   kittens.push(name);
