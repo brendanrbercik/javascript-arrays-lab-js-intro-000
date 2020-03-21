@@ -22,3 +22,13 @@ function destructivelyRemoveFirstKitten() {
 //   var kittens = [...kittens, name];
 //   return kittens;
 // }
+
+function removeLastKitten() {
+  kittens = kittens.slice(0,-1);
+  return kittens;
+}
+
+function removeFirstKitten() {
+  kittens = kittens.slice(1);
+  return kittens;
+}
