@@ -1,4 +1,4 @@
-var kittens = ["Milo", "Otis", "Garfield"]
+var kittens = ["Milo", "Otis", "Garfield"];
 
 function removeLastKitten() {
   var kittens2 = kittens.slice(0,-1);
@@ -11,8 +11,9 @@ function removeFirstKitten() {
 }
 
 function appendKitten(name) {
-  var kittens = ["Milo", "Otis", "Garfield"]
+  var kittens = ["Milo", "Otis", "Garfield"];
   kittens = [...kittens, name];
+  return kittens;
 }
 
 function destructivelyAppendKitten(name) {
